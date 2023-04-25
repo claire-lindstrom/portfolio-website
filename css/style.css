@@ -1,0 +1,112 @@
+/*
+Colors used:
+Primary Color (Rust): #A7583A;
+Secondary Color (Green): #789B5C;
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #A7583A 
+}
+
+a:hover {
+    color: #692A12 
+}
+
+a:focus {
+    color: #A7583A;
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    background-color: #A7583A;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #A7583A;
+    transition: 0.2s opacity;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: #A7583A;
+    font-weight: 400; 
+    border: 2px solid #A7583A;
+}
+
+.button.contact {
+    background-color: white;
+    color: #A7583A;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+
+.button.contact:hover {
+    background-color: #A7583A;
+    color: white;
+}
+.logo {
+    max-width: 150px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 24px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #A7583A;
+    color: white;
+    font-weight: 400;
+}
+header {
+    background-color: white;
+    padding: 10px 0 4px;
+    position: relative;
+    border: 2px solid #A7583A;
+}
+.hero {
+    background-color: #A7583A;
+    color: white
+}
