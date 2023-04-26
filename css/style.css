@@ -93,7 +93,19 @@ footer {
 }
 header {
     background-color: white;
-    padding: 10px 0 4px;
-    position: relative;
     border: 2px solid #A7583A;
+}
+#hero {
+    background-color: #A7583A;
+    color: white;
+    font-weight: 400;
+}
+#work {
+    background-color: white;
+    color:black;
+}
+#contact {
+    background-color: #A7583A;
+    color: white;
+    font-weight: 400;
 }
