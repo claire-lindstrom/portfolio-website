@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Claire Lindstrom UX/UI Designer</title>
     <link href="img/smalllogo.png" rel="shortcut icon">
     <link rel="stylesheet" type="text/css"
@@ -15,9 +16,9 @@
 
 <body>
     <header>
-        <div>
+        <div class="container">
             <picture>
-                <img src="img/Logo.jpg" alt="Claire Lindstrom">
+                <img src="img/Logo.jpg" alt="Claire Lindstrom" class="logo">
             </picture>
             <nav>
                 <ul>
@@ -30,7 +31,7 @@
     </header>
     <main>
         <div id="hero">
-            <div>
+            <div class="container">
                 <h1>Claire Lindstrom</h1>
                 <h2>UX/UI Designer</h2>
                 <p> Hi, I’m Claire, a New York City based UX/UI designer. My user-centric, empathetic philosophy has
@@ -40,7 +41,7 @@
                     build products out of their ideas and deliver user-friendly designs. </p>
             </div>
         </div>
-        <div id="work">
+        <div id="work" class="container">
             <div>
                 <h2>My Work</h2>
             </div>
@@ -50,7 +51,7 @@
                     <img src="img/pocketpiggybank/pocketpiggybank@1.jpg" alt="Pocket Piggy Bank">
                 </picture>
             </div>
-            <div>
+            <div class="row">
                 <h3>Pocket Piggy Bank</h3>
                 <p>The app that makes saving up for that next big purchase, adventure, or life event easy.</p>
                 <p>UX/UI Design, Responsive Design, Branding Guidelines, User Flows, Personas & Testing, Prototyping,
@@ -63,7 +64,7 @@
                     <img src="img/Bookish/bookish@1.jpg" alt="Bookish">
                 </picture>
             </div>
-            <div>
+            <div class="row">
                 <h3>Bookish</h3>
                 <p>An app that makes learning easy &amp; accessible to everyone.</p>
                 <p>UX/UI Design, iOS &amp; Android Design, Native App Design, User Flows, Prototyping, Wireframing,
@@ -74,19 +75,19 @@
         </div>
     </main>
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2> Get In Touch</h2>
             <p>Want to discuss opportunities? Please get in touch.</p>
             <div>
                 <a href="mailto:lindstrom.claire@gmail.com" class="button contact"> Email Me</a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/claire-lindstrom/" target="_blank">
-                    <img src="img/linkedin_logo.svg" alt="LI">
-                </a>
-                <a href="https://www.behance.com/claire-lindstrom/" target="_blank">
-                    <img src="img/behance_logo.svg" alt="Be">
-                </a>
+            <div id="socialicons">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/claire-lindstrom/" target="_blank"><img
+                                src="img/linkedin_logo.svg" alt="LI"></a></li>
+                    <li><a href="https://www.behance.com/claire-lindstrom/" target="_blank"><img
+                                src="img/behance_logo.svg" alt="Be"></a></li>
+                </ul>
             </div>
         </div>
     </footer>
