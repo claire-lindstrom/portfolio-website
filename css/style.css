@@ -68,7 +68,6 @@ a:focus {
     border-bottom: 2px solid #A7583A;
     transition: 0.2s opacity;
     text-decoration: none;
-    text-align: center;
 }
 
 .button:hover {
@@ -141,7 +140,7 @@ footer {
 }
 #hero h1 {
     text-align: center;
-    font-size: 25pt;
+    font-size: 25px;
     margin: 0;
 }
 #hero h2 {
@@ -184,17 +183,35 @@ nav {
 main {
     padding-top: 133px;
 }
+#work h1 {
+    text-align: center;
+}
+#work h2 {
+    text-align: center;
+}
 #work h3 {
     text-align: center;
 }
 #work p {
     text-align: center;
 }
-#socialicons > ul {
+.social {
     list-style-type: none;
+    padding:0;
+    /*margin-left: -10px;*/
 }
-#socialicons > ul > li {
-    display: inline-block;
+.social li {
+    display:inline-block;
 }
-
+.social img {
+    height: 40px;
+    width: 40px;
+}
+.secondarybutton {
+    text-align: center;
+    color:#A7583A;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
