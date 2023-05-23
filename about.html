@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="about-page">
     <header>
         <div class="container">
             <picture>
@@ -34,33 +34,47 @@
             <div>
                 <h1>About</h1>
             </div>
-            <div>
+            <div id="picture">
                 <picture>
                     <source srcset="img/headshot@2.jpg" media="(max-width:767px)">
-                    <img src="img/headshot@1.jpg" alt="Claire Lindstrom">
+                    <p><img src="img/headshot@1.jpg" alt="Claire Lindstrom" class="headshot"></p>
                 </picture>
             </div>
-            <div>
-                <h2>My Story</h2>
-                <p>I’m a New York City based UX/UI designer. My user-centric, empathetic philosophy has brought me to
-                    UX/UI design and has given me the skills needed to create aesthetically pleasing, simple to use and
-                    pixel-perfect designs.
+            <div class="row">
+                <div id="my-story">
+                    <div class="col-lg-7">
+                        <h2>My Story</h2>
+                        <p>I’m a New York City based UX/UI designer. My user-centric, empathetic philosophy has brought
+                            me
+                            to
+                            UX/UI design and has given me the skills needed to create aesthetically pleasing, simple to
+                            use
+                            and
+                            pixel-perfect designs.
 
-                    I have a background in sales and marketing working in Real Estate, the recruiting space and the
-                    fashion industry. In my past customer-facing roles, I’ve focused on building relationships,
-                    collaborating with others and providing top-notch experiences to clients which has informed my
-                    understanding of how important a user experience is. This has given me a unique skillset which
-                    allows me to quickly connect with and gain insights from users to facilitate the best experiences
-                    for them.
+                            I have a background in sales and marketing working in Real Estate, the recruiting space and
+                            the
+                            fashion industry. In my past customer-facing roles, I’ve focused on building relationships,
+                            collaborating with others and providing top-notch experiences to clients which has informed
+                            my
+                            understanding of how important a user experience is. This has given me a unique skillset
+                            which
+                            allows me to quickly connect with and gain insights from users to facilitate the best
+                            experiences
+                            for them.
 
-                    I’m always looking for the next opportunity to help others build products out of their ideas and
-                    deliver user-friendly designs.
-                </p>
-                <p><a href="files/Claire_Lindstrom.pdf" download target="_blank" class="button">Download My Resume</a>
-                </p>
-                <h2>Skills &amp; Tools</h2>
-                <div>
-                    <div>
+                            I’m always looking for the next opportunity to help others build products out of their ideas
+                            and
+                            deliver user-friendly designs.
+                        </p>
+                        <p><a href="files/Claire_Lindstrom.pdf" download target="_blank" class="button">Download My
+                                Resume</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5" id="skills">
+                    <h2>Skills &amp; Tools</h2>
+                    <div class="col-md-6">
                         <h3>Relevant Skills</h3>
                         <ul>
                             <li>UI Design</li>
@@ -77,7 +91,7 @@
                             <li>Employer Branding</li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="col-md-6">
                         <h3>Tools I Use</h3>
                         <ul>
                             <li>Figma</li>
@@ -88,7 +102,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </main>
     <footer id="contact">
         <div class="container">
