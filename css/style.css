@@ -63,18 +63,15 @@ a:focus {
     background-color: #A7583A;
     color: white;
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #A7583A;
-    transition: 0.2s opacity;
-    text-decoration: none;
+    transition: 0.2s opacity; 
 }
 
 .button:hover {
-    background-color: white;
-    color: #A7583A;
-    font-weight: 400; 
-    border: 2px solid #A7583A;
+    opacity: 0.8;
 }
 
 .button.contact {
@@ -219,130 +216,160 @@ main {
     font-size: 20px;
     text-transform: uppercase;
 }
-/*media queries*/
-/*medium devices (640px and larger)*/
-@media only screen and (min-width: 640px) {
-    header {
-        text-align: unset;
-        padding: 20px 0 13px;
-    }
-    nav {
-        width: auto;
-        float: right;
-        margin-top: 4px;
-    }
-    main {
-        padding-top: 99px;
-    }
-    .col-md-6 {
-        width: 50%;
-    }
-   #work p {
-    text-align: left;
-    font-size: 16px;
-   }
-   #work h3 {
-    text-align: left;
-    margin-bottom: -10px;
-   }
-   #work ul {
-    margin-left: -15px;
-   }
-   #about-page h3 {
-    margin-bottom: 0;
-   }
-   #my-story p {
-    text-align: center;
-   }
-   #about-page h2 {
-    text-align: center;
-   }
-   .headshot {
-    max-width: 500px;
-    }
-    #picture p {
-    text-align: center; 
-    }
-    #skills h2 {
-        text-align:center;
-    }
+  /*animation*/
+  @keyframes color-change {
+    0% {fill: #f7be2b}
+    50% {fill:#F7742B}
+    100% {fill:#FFF48E}
 }
-/*large devices (1024px or larger)*/
-@media only screen and (min-width: 1024px) {
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-  }
-    .col-lg-7 {
-        width: 60%;
-    }
-    .col-lg-5 {
-        width: 40%;
-    }
-    #about-page h3 {
-        font-size: 20px;
-        font-weight: 550;
-        margin-top: -5px;
-    }
-    body {
-    font-size: 23px;
-    }
-    .col-lg-5 p {
-        font-size: 20px;
-    }
-    #hero h1 {
-        font-size: 45px;
-        padding-top: 15px;
-    }
-    #hero h2 {
-        font-size: 35px;
-    }
-    #work p {
-        font-size: 22px;
-        text-align: left;
-    }
-    .social img {
-        height: 80px;
-        width: 80px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .headshot {
-        max-width: 700px;
-    }
-    #work h1 {
-        padding-top: 20px;
-    }
-    #picture p {
-        text-align: center; 
-    }
-    #about-page h2 {
-        font-size: 30px;
-        text-align: left;
-    }
-    #work p {
-        font-size: 18.5px;
-        padding-bottom: 10px;
-    }
-    .col-lg-5 ul {
-        font-size: 16px;
-    }
-    #contact h2 {
-        text-align: center;
-    }
+@keyframes cloud-move {
+    from {transform:translate(0,50px);}
+    to {transform:translate(700px,50px);}
 }
-/*xl devices (1440px and larger)*/
-@media only screen and (min-width: 1440px) {
-    
+@keyframes cloud-move-reverse {
+    from {transform:translate(700px,50px);}
+    to {transform:translate(0,50px);}
 }
-[class*="col-"] {
-    float:left;
-    padding-left: 10px;
-    padding-right: 10px;
+.sun {
+    animation-duration: 5s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
-.row:after {
+.cloud-1 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-1-2 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-1-3 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-2 {
+    animation-duration: 5s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-2-2 {
+    animation-duration: 5s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-2-3 {
+    animation-duration: 5s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-3 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-3-2 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.cloud-3-3 {
+    animation-duration: 5s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+/*Media Queries*/
+
+/*clear page flow*/
+.row::after {
     content: "";
     clear: both;
     display: table;
-}
+  }
+  
+  /*float all columns left*/
+  [class*="col-"] {
+    padding: 10px;
+  }
+  
+  /* ==============================
+  Medium devices (640px and larger)
+  ================================= */
+  @media only screen and (min-width: 640px) {
+    body {
+      font-size: 18px;
+    }
+      
+    header {
+      text-align: unset;
+      padding: 20px 0 13px;
+    }
+  
+    nav {
+      width: auto;
+      float: right;
+    }
+      
+    .col-md-6 {
+      width: 50%;
+      float: left;
+      padding-bottom: 40px;
+    }
+      
+  }
+  
+  
+  /* ==============================
+  Large devices (1024px or larger)
+  ================================= */
+  @media only screen and (min-width: 1024px) {
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .col-lg-7 {
+      width: 60%;
+    }
+  
+    .col-lg-5 {
+      width: 40%;
+    }
+      
+    .col-lg-7 {
+      width: 60%;
+      float: left;
+      padding-bottom: 40px;
+    }
+    .col-lg-8 {
+      width: 40%;
+      float: right;
+    }
+      
+     #about-page .col-md-6 {
+       width: 100%;
+    }
+  }
