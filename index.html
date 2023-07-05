@@ -12,21 +12,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df073a0140.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <picture>
+            <div class="navtoggle" id="myNavtoggle">
                 <img src="img/Logo.jpg" alt="Claire Lindstrom" class="logo">
-            </picture>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -74,10 +77,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-7">
                     <svg version="1.1" id="svg2" width="auto" height="auto" viewBox="0 0 5333.3335 3333.3333"
-                        sodipodi:docname="vecteezy_colorful-city-free-vector_8202126.eps"
-                        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                        xmlns="http://www.w3.org/2000/svg">
                         <defs id="defs6">
                             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
                                 <path d="M 13013.3,12453.3 H 16920 V 4.39844 h -3906.7 z" id="path20" />
@@ -146,11 +146,8 @@
                                 <path d="M 21813.3,6440 H 24320 V 5 h -2506.7 z" id="path5048" />
                             </clipPath>
                         </defs>
-                        <sodipodi:namedview id="namedview4" pagecolor="#ffffff" bordercolor="#000000"
-                            borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0"
-                            inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" />
-                        <g id="g8" inkscape:groupmode="layer" inkscape:label="ink_ext_XXXXXX"
-                            transform="matrix(1.3333333,0,0,-1.3333333,0,3333.3333)">
+
+                        <g id="g8" transform="matrix(1.3333333,0,0,-1.3333333,0,3333.3333)">
                             <g id="g10" transform="scale(0.1)">
                                 <path d="M 40000,0 H 0 V 25000 H 40000 V 0"
                                     style="fill:#379c9a;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path12" />
@@ -5698,6 +5695,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
