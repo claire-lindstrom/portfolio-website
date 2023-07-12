@@ -238,6 +238,12 @@ main {
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
   }
+  .headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   /*animation*/
   @keyframes color-change {
@@ -410,7 +416,4 @@ main {
      #about-page .col-md-6 {
        width: 100%;
     }
-    #picture {
-        width: 300px;
-        }
   }
